@@ -5,7 +5,7 @@ A table extension of [goldmark](http://github.com/yuin/goldmark) that allows ren
 This is implemented basing on the [origin table extensionn code](https://github.com/yuin/goldmark/blob/master/extension/table.go).
 
 # Usage
-Just put the source file into your project, and use it as goldmark extension:
+Just put the source file 'goldmark_table.go' into your project, and use it as goldmark extension:
 ```go
 md := goldmark.New(
     goldmark.WithExtensions(utils.Table))
