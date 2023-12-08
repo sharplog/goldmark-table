@@ -1,5 +1,5 @@
 # goldmark-table
-A table extension of [goldmark](http://github.com/yuin/goldmark) that allows rendering multi-line table head, and support colspan and rowspan.
+A table extension of [goldmark](http://github.com/yuin/goldmark) that allows rendering multi-line table head, and supports colspan and rowspan.
 ![example](example.png)
 
 This is implemented basing on the [origin table extension code](https://github.com/yuin/goldmark/blob/master/extension/table.go).
